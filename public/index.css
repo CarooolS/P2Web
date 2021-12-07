@@ -1,0 +1,90 @@
+/* body do login e cadastro */
+body{
+    background-color: #ffe4e1;
+    background-size: cover;
+    color: #000000;
+} 
+
+/* h2 do login e cadastro */
+h2{
+    text-align: center;
+    margin: 35px auto 23px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+/* tag a do login */
+#acadastro{
+    color: #141414;
+    font-size: 9pt;
+    margin-left: 15px;
+}
+
+/* a com hover do login e cadastro */
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+/* tag a do cadastro */
+#voltar{
+    color: #141414;
+    font-size: 15pt;
+    /* padding-left: 20px; */
+    /* top right bottom left */
+    margin-left: 20px;
+}
+
+/* div do login */
+#login{
+    width: 450px;
+    height: 398px;
+    margin: 120px auto 0px auto;
+    border: 1px solid;
+    border-radius: 40px 10px;
+    border-color: black;
+    background-color: #ddfada;
+}
+
+/* div do cadastro */
+#cadastro{
+    width: 450px;
+    height: 450px;
+    margin: 100px auto 0px auto;
+    border: 1px solid;
+    border-radius: 40px 10px;
+    border-color: black;
+    background-color: #ddfada;
+}
+
+/* inputs sozinho */
+input{
+    background-color: transparent !important; 
+    border-color: black !important;
+    outline: none;
+    
+}
+
+/* input do usuario */
+#inputusuario{
+    margin-bottom: 25px;
+}
+
+label{
+    margin: 5px auto 1px auto;
+}
+
+button{
+    background-color: #63BCC9 !important;
+    border:none !important;
+    width: 200px !important;
+    margin-top: 8%;
+    color: black !important;
+}
+
+.button{
+    text-align: center;
+}
+
+#navbar{
+    background-color: #ddfada !important;
+}
